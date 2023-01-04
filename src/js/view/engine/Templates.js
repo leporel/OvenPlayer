@@ -23,6 +23,7 @@ import TimeDisplayTemplate from 'view/components/controls/timeDisplayTemplate';
 import FullScreenButtonTemplate from 'view/components/controls/fullScreenButtonTemplate';
 import PanelsTemplate from 'view/components/controls/settingPanel/mainTemplate';
 import SpeedPanelTemplate from 'view/components/controls/settingPanel/mainTemplate';
+import ZoomPanelTemplate from 'view/components/controls/settingPanel/mainTemplate';
 import SourcePanelTemplate from 'view/components/controls/settingPanel/mainTemplate';
 import QualityPanelTemplate from 'view/components/controls/settingPanel/mainTemplate';
 import CaptionPanelTemplate from 'view/components/controls/settingPanel/mainTemplate';
@@ -51,6 +52,7 @@ const Templates = {
     FullScreenButtonTemplate,
     PanelsTemplate,
     SpeedPanelTemplate,
+    ZoomPanelTemplate,
     SourcePanelTemplate,
     QualityPanelTemplate,
     CaptionPanelTemplate,

@@ -16,6 +16,7 @@ const Configurator = function(options, provider){
             mediaContainer : "",
             playbackRates: [2, 1.5, 1, 0.5, 0.25],
             playbackRate: 1,
+            zoom: 1,
             mute: false,
             volume: 100,
             loop : false,

@@ -37,7 +37,6 @@ const View = function($container){
     let currentPlayerSize = "";
 
     let that = {};
-
     //Member Functions
     function setHide(hide, autoHide) {
         if (autoHideTimer) {

@@ -131,6 +131,7 @@ export const SYSTEM_TEXT = [
             "setting" : {
                 "title" : "Settings",
                 "speed" : "Speed",
+                "zoom" : "Zoom",
                 "speedUnit" : "x",
                 "source" : "Source",
                 "quality" : "Quality",

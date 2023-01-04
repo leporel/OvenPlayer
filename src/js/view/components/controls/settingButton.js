@@ -10,6 +10,7 @@ import {
 
 let PANEL_TITLE = {
     "speed" : "Speed",
+    "zoom" : "Zoom",
     "speedUnit" : "x",
     "source" : "Source",
     "quality" : "Quality",
@@ -57,6 +58,16 @@ const SettingButton = function ($container, api) {
             };
             panel.body.push(body);
         }
+
+        let body = {
+            title : PANEL_TITLE.zoom,
+            value :  PANEL_TITLE.zoom,
+            description :  PANEL_TITLE.zoom,
+            panelType : "zoom",
+            hasNext : true
+        };
+        panel.body.push(body);
+
         if (sources && sources.length > 0) {
 
             let body = {
